@@ -1,0 +1,419 @@
+-- Services
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+local StarterGui = game:GetService("StarterGui")
+
+-- Global
+getgenv().Running = false
+
+-- Automatically copy Discord invite link
+pcall(function()
+    if setclipboard then
+        setclipboard("https://discord.gg/ZNPD5HPM2e")
+    end
+end)
+
+-- Fire the initial scripts
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/refs/heads/main/Source.lua"))()
+    task.wait(3)
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-Kick-64381"))()
+end)
+
+-- GUI setup
+local gui = Instance.new("ScreenGui")
+gui.Name = "QuantumFlowHub"
+gui.ResetOnSpawn = false
+gui.Parent = CoreGui
+
+-- Main frame
+local mainFrame = Instance.new("Frame")
+mainFrame.Size = UDim2.new(0, 360, 0, 320)
+mainFrame.Position = UDim2.new(0.5, -180, 0.4, -160)
+mainFrame.BackgroundColor3 = Color3.fromRGB(40, 25, 60)
+mainFrame.BorderSizePixel = 0
+mainFrame.Active = true
+mainFrame.Draggable = true
+mainFrame.Parent = gui
+
+local mainCorner = Instance.new("UICorner")
+mainCorner.CornerRadius = UDim.new(0, 14)
+mainCorner.Parent = mainFrame
+
+-- Header
+local header = Instance.new("Frame")
+header.Size = UDim2.new(1, 0, 0, 40)
+header.BackgroundColor3 = Color3.fromRGB(60, 30, 80)
+header.Parent = mainFrame
+
+local headerCorner = Instance.new("UICorner")
+headerCorner.CornerRadius = UDim.new(0, 14)
+headerCorner.Parent = header
+
+local title = Instance.new("TextLabel")
+title.Text = "Quantum Flow by Zel"
+title.Size = UDim2.new(1, -50, 1, 0)
+title.Position = UDim2.new(0, 15, 0, 0)
+title.BackgroundTransparency = 1
+title.Font = Enum.Font.GothamBold
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 17
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Parent = header
+
+-- Minimize button
+local minimize = Instance.new("TextButton")
+minimize.Size = UDim2.new(0, 40, 1, 0)
+minimize.Position = UDim2.new(1, -45, 0, 0)
+minimize.Text = "-"
+minimize.Font = Enum.Font.GothamBold
+minimize.TextSize = 22
+minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+minimize.BackgroundColor3 = Color3.fromRGB(60, 60, 70)
+local minCorner = Instance.new("UICorner", minimize)
+minCorner.CornerRadius = UDim.new(0, 8)
+minimize.Parent = header
+
+-- Scroll Frame
+local scrollFrame = Instance.new("ScrollingFrame")
+scrollFrame.Size = UDim2.new(1, -20, 1, -50)
+scrollFrame.Position = UDim2.new(0, 10, 0, 45)
+scrollFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+scrollFrame.ScrollBarThickness = 6
+scrollFrame.BackgroundTransparency = 1
+scrollFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollFrame.Parent = mainFrame
+
+local uiList = Instance.new("UIListLayout", scrollFrame)
+uiList.Padding = UDim.new(0, 10)
+uiList.HorizontalAlignment = Enum.HorizontalAlignment.Center
+uiList.SortOrder = Enum.SortOrder.LayoutOrder
+
+-- Input box
+local input = Instance.new("TextBox")
+input.Size = UDim2.new(1, -10, 0, 90)
+input.PlaceholderText = "Don't use it for now"
+input.Text = ""
+input.TextWrapped = true
+input.MultiLine = true
+input.ClearTextOnFocus = false
+input.TextXAlignment = Enum.TextXAlignment.Left
+input.TextYAlignment = Enum.TextYAlignment.Top
+input.Font = Enum.Font.Gotham
+input.TextSize = 14
+input.BackgroundColor3 = Color3.fromRGB(45, 45, 55)
+input.TextColor3 = Color3.fromRGB(255, 255, 255)
+input.BorderSizePixel = 0
+input.LayoutOrder = 1
+input.Parent = scrollFrame
+
+local inputCorner = Instance.new("UICorner")
+inputCorner.CornerRadius = UDim.new(0, 10)
+inputCorner.Parent = input
+
+-- Function to create buttons with gradient + sound
+local function createButton(name, parent)
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(0, 110, 0, 35)
+    btn.Text = name
+    btn.Font = Enum.Font.GothamBold
+    btn.TextSize = 14
+    btn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    btn.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    btn.AutoButtonColor = false
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = btn
+
+    local gradient = Instance.new("UIGradient")
+    gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(0,0,0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255,255,255))}
+    gradient.Rotation = 90
+    gradient.Parent = btn
+
+    local hoverSoundId = "rbxassetid://6042053626"
+    local clickSoundId = "rbxassetid://6042053626"
+
+    local function playSound(id)
+        local sound = Instance.new("Sound")
+        sound.SoundId = id
+        sound.Volume = 1
+        sound.PlayOnRemove = true
+        sound.Parent = btn
+        sound:Destroy()
+    end
+
+    local OriginalSize = btn.Size
+    local ScaleFactor = 1.1
+    btn.MouseEnter:Connect(function()
+        playSound(hoverSoundId)
+        btn:TweenSize(UDim2.new(
+            OriginalSize.X.Scale,
+            OriginalSize.X.Offset * ScaleFactor,
+            OriginalSize.Y.Scale,
+            OriginalSize.Y.Offset * ScaleFactor
+        ), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.15, true)
+    end)
+    btn.MouseLeave:Connect(function()
+        btn:TweenSize(OriginalSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.15, true)
+    end)
+    btn.MouseButton1Click:Connect(function()
+        playSound(clickSoundId)
+    end)
+
+    btn.Parent = parent
+    return btn
+end
+
+-- Top row
+local topRow = Instance.new("Frame")
+topRow.Size = UDim2.new(1, 0, 0, 40)
+topRow.BackgroundTransparency = 1
+topRow.LayoutOrder = 2
+topRow.Parent = scrollFrame
+
+local topLayout = Instance.new("UIListLayout")
+topLayout.FillDirection = Enum.FillDirection.Horizontal
+topLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+topLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+topLayout.SortOrder = Enum.SortOrder.LayoutOrder
+topLayout.Padding = UDim.new(0, 8)
+topLayout.Parent = topRow
+
+local clearBtn = createButton("Clear", topRow)
+local startBtn = createButton("Start", topRow)
+local pasteBtn = createButton("Paste", topRow)
+
+-- Speed row
+local speedRow = Instance.new("Frame")
+speedRow.Size = UDim2.new(1, 0, 0, 35)
+speedRow.BackgroundTransparency = 1
+speedRow.LayoutOrder = 3
+speedRow.Parent = scrollFrame
+
+local speedLayout = Instance.new("UIListLayout")
+speedLayout.FillDirection = Enum.FillDirection.Horizontal
+speedLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+speedLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+speedLayout.SortOrder = Enum.SortOrder.LayoutOrder
+speedLayout.Padding = UDim.new(0, 8)
+speedLayout.Parent = speedRow
+
+local confirmSpeed = createButton("Confirm Speed", speedRow)
+confirmSpeed.Size = UDim2.new(0, 130, 1, 0)
+
+local speedSlider = Instance.new("TextBox")
+speedSlider.Size = UDim2.new(0, 140, 1, 0)
+speedSlider.Text = ""
+speedSlider.Font = Enum.Font.Gotham
+speedSlider.TextSize = 14
+speedSlider.BackgroundColor3 = Color3.fromRGB(45, 45, 55)
+speedSlider.TextColor3 = Color3.fromRGB(255, 255, 255)
+speedSlider.ClearTextOnFocus = false
+speedSlider.TextXAlignment = Enum.TextXAlignment.Left
+speedSlider.LayoutOrder = 2
+speedSlider.Parent = speedRow
+
+local speedCorner = Instance.new("UICorner")
+speedCorner.CornerRadius = UDim.new(0, 10)
+speedCorner.Parent = speedSlider
+
+-- Bottom row
+local bottomRow = Instance.new("Frame")
+bottomRow.Size = UDim2.new(1, 0, 0, 40)
+bottomRow.BackgroundTransparency = 1
+bottomRow.LayoutOrder = 4
+bottomRow.Parent = scrollFrame
+
+local bottomLayout = Instance.new("UIListLayout")
+bottomLayout.FillDirection = Enum.FillDirection.Horizontal
+bottomLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+bottomLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+bottomLayout.SortOrder = Enum.SortOrder.LayoutOrder
+bottomLayout.Padding = UDim.new(0, 8)
+bottomLayout.Parent = bottomRow
+
+local spyBtn = createButton("Octo Spy", bottomRow)
+local addExpBtn = createButton("Add EXP", bottomRow)
+local infHTBtn = createButton("INF Hunger/Thirst", bottomRow)
+
+-- Third row (new buttons)
+local thirdRow = Instance.new("Frame")
+thirdRow.Size = UDim2.new(1, 0, 0, 40)
+thirdRow.BackgroundTransparency = 1
+thirdRow.LayoutOrder = 5
+thirdRow.Parent = scrollFrame
+
+local thirdLayout = Instance.new("UIListLayout")
+thirdLayout.FillDirection = Enum.FillDirection.Horizontal
+thirdLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+thirdLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+thirdLayout.SortOrder = Enum.SortOrder.LayoutOrder
+thirdLayout.Padding = UDim.new(0, 8)
+thirdLayout.Parent = thirdRow
+
+local changeTimeBtn = createButton("Change Time", thirdRow)
+local openJeepBtn = createButton("Open Jeep Boost", thirdRow)
+local kmFarmerBtn = createButton("KM FARMER", thirdRow)
+
+-- Button logic
+clearBtn.MouseButton1Click:Connect(function() input.Text = "" end)
+pasteBtn.MouseButton1Click:Connect(function()
+    pcall(function() input.Text = (setclipboard and getclipboard and getclipboard()) or "" end)
+end)
+startBtn.MouseButton1Click:Connect(function()
+    getgenv().Running = not getgenv().Running
+    startBtn.Text = getgenv().Running and "Stop" or "Start"
+end)
+confirmSpeed.MouseButton1Click:Connect(function()
+    local speed = tonumber(speedSlider.Text)
+    if speed and LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+        LocalPlayer.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = speed
+    end
+end)
+spyBtn.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Octo-Spy/refs/heads/main/Main.lua"))()
+end)
+addExpBtn.MouseButton1Click:Connect(function()
+    local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+    if leaderstats and leaderstats:FindFirstChild("Exp") then
+        leaderstats.Exp.Value += 100000
+    end
+end)
+infHTBtn.MouseButton1Click:Connect(function()
+    local stats = LocalPlayer:WaitForChild("stats")
+    local hunger = stats:FindFirstChild("Hunger")
+    local thirst = stats:FindFirstChild("Thirst")
+    if hunger and hunger:IsA("IntValue") then hunger.Value = 100 end
+    if thirst and thirst:IsA("IntValue") then thirst.Value = 100 end
+end)
+
+-- Third row buttons
+changeTimeBtn.MouseButton1Click:Connect(function()
+    Lighting.ClockTime = (Lighting.ClockTime + 1) % 24
+end)
+
+openJeepBtn.MouseButton1Click:Connect(function()
+    StarterGui:SetCore("SendNotification", {
+        Title = "Quantum Flow",
+        Text = "Work In Progress",
+        Duration = 3
+    })
+end)
+
+kmFarmerBtn.MouseButton1Click:Connect(function()
+    local plr = LocalPlayer
+    local char = plr.Character or plr.CharacterAdded:Wait()
+    local hrp = char:WaitForChild("HumanoidRootPart")
+
+    local targetPos = Vector3.new(17790.96, 12.95, -1106.35)
+    local riseHeight = 80
+    local riseTime = 10
+    local moveTime = 180
+    local descendTime = 10
+
+    local function easeInOut(t)
+        return t < 0.5 and 2 * t * t or -1 + (4 - 2 * t) * t
+    end
+
+    local function setAnchored(model, value)
+        for _, part in ipairs(model:GetDescendants()) do
+            if part:IsA("BasePart") then
+                part.Anchored = value
+            end
+        end
+    end
+
+    local function smoothMove(part, goalPos, duration)
+        local startPos = part.Position
+        local distance = (goalPos - startPos)
+        local startTime = tick()
+        local connection
+        connection = RunService.Heartbeat:Connect(function()
+            local elapsed = tick() - startTime
+            local alpha = math.clamp(elapsed / duration, 0, 1)
+            local smoothAlpha = easeInOut(alpha)
+            local newPos = startPos + distance * smoothAlpha
+            part.CFrame = CFrame.new(newPos, part.CFrame.LookVector)
+            if alpha >= 1 then
+                connection:Disconnect()
+            end
+        end)
+        task.wait(duration)
+    end
+
+    local seat = char:FindFirstChildWhichIsA("VehicleSeat", true)
+    if seat and seat.Occupant then
+        local vehicle = seat:FindFirstAncestorWhichIsA("Model")
+        if vehicle then
+            if not vehicle.PrimaryPart then
+                vehicle.PrimaryPart = seat
+            end
+            local root = vehicle.PrimaryPart
+            setAnchored(vehicle, true)
+
+            local startPos = root.Position
+            local risePos = Vector3.new(startPos.X, riseHeight, startPos.Z)
+            smoothMove(root, risePos, riseTime)
+
+            local movePos = Vector3.new(targetPos.X, riseHeight, targetPos.Z)
+            smoothMove(root, movePos, moveTime)
+
+            local finalPos = Vector3.new(targetPos.X, targetPos.Y, targetPos.Z)
+            smoothMove(root, finalPos, descendTime)
+
+            setAnchored(vehicle, false)
+        else
+            warn("No vehicle model found.")
+        end
+    else
+        local startPos = hrp.Position
+        local risePos = Vector3.new(startPos.X, riseHeight, startPos.Z)
+        smoothMove(hrp, risePos, riseTime)
+
+        local movePos = Vector3.new(targetPos.X, riseHeight, targetPos.Z)
+        smoothMove(hrp, movePos, moveTime)
+
+        local finalPos = Vector3.new(targetPos.X, targetPos.Y, targetPos.Z)
+        smoothMove(hrp, finalPos, descendTime)
+    end
+end)
+
+-- Minimize
+local minimized = false
+minimize.MouseButton1Click:Connect(function()
+    minimized = not minimized
+    minimize.Text = minimized and "+" or "-"
+    local targetSize = minimized and UDim2.new(0, 360, 0, 40) or UDim2.new(0, 360, 0, 320)
+    TweenService:Create(mainFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = targetSize}):Play()
+    scrollFrame.Visible = not minimized
+end)
+
+-- Main loop
+task.spawn(function()
+    while true do
+        if getgenv().Running then
+            pcall(function()
+                local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+                local RecieveCoin = Remotes:WaitForChild("RecieveCoin")
+                local Jeepnies = workspace:WaitForChild("Jeepnies")
+                local Jeepney = Jeepnies:WaitForChild(LocalPlayer.Name)
+                local PassengerValues = Jeepney:WaitForChild("PassengerValues")
+                RecieveCoin:FireServer({
+                    ["PassengerValues"]=PassengerValues,
+                    ["Password"]=838875481,
+                    ["Main"]=true,
+                    ["Value"]=300
+                })
+            end)
+            task.wait(0.1)
+        else
+            task.wait(0.5)
+        end
+    end
+end)
