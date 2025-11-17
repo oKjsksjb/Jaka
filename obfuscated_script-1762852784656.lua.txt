@@ -1,1 +1,535 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local P={"\056\082\052\043\081\117\061\061";"\065\051\086\108\102\100\080\085\066\056\079\081";"\087\082\070\051\110\050\050\101\074\051\100\115\048\056\106\113\100\120\061\061";"\084\086\067\067\086\113\090\079\075\101\069\112\069\071\069\085\085\077\100\105\079\081\117\061";"\048\056\122\121\048\056\082\051";"\085\079\122\108\048\120\061\061","\048\109\067\053\052\052\109\112\079\047\115\108\108\085\081\061";"\098\067\105\076\069\081\061\061","\071\048\105\085\100\078\048\057";"\103\074\116\071\109\120\061\061";"\043\114\048\108\112\117\061\061";"\098\102\098\110\073\112\070\086","\103\078\117\050\100\116\098\066\103\117\061\061";"\119\103\111\054","\048\069\100\089\100\097\122\076\071\083\101\069\109\082\066\053";"\089\057\112\122\074\053\099\061","\049\054\078\097\067\111\086\069\115\086\106\078\112\111\110\121","\106\105\087\069\051\114\057\117","\083\052\080\050\100\047\118\105\073\085\066\050","\088\102\053\107";"\081\051\068\077\080\056\079\104\080\108\066\066\072\051\083\077\071\120\061\061","\101\066\072\110","\101\087\108\103\101\117\061\061","\104\105\107\075\086\081\061\061","\048\085\105\100";"\120\104\066\069\047\116\086\104\090\079\066\076\110\048\043\099\107\107\097\115\075\111\121\090\080\117\061\061";"\071\077\050\121\100\119\100\066\057\108\109\051\081\047\118\114\100\085\109\051\072\113\068\085\073\097\050\114\073\119\050\069\081\081\061\061";"\070\099\077\090\107\047\068\085\117\055\108\055\079\070\061\061","\056\067\086\054\120\057\088\099\072\071\105\051\075\055\105\118\048\070\061\061","\070\066\047\080\049\087\105\055";"\116\104\075\089\110\117\099\085\080\121\108\049\075\077\089\120\110\086\113\113\116\081\061\061","\080\106\101\072\087\079\067\089\101\104\052\048\112\065\115\078\113\090\118\097\053\079\090\061","\043\069\113\054\108\120\061\061","\080\056\097\120";"\071\077\050\112\100\083\109\050\057\108\100\050\057\117\061\061";"\052\066\116\051","\086\089\050\109\051\119\117\056\081\070\061\061","\055\120\073\099","\052\109\113\118","\050\120\084\083\082\103\051\083\076\054\073\048\049\070\061\061","\080\097\050\114\073\120\061\061","\043\069\081\082\082\116\103\118\070\047\097\089\089\104\099\084\053\088\072\049\079\080\080\098\116\054\052\047\107\070\061\061";"\084\047\101\068\047\067\082\050\087\084\071\074\084\113\050\102","\115\111\111\052\089\103\109\055\051\108\068\070";"\099\117\061\061";"\065\118\083\052\122\055\054\110\069\052\098\061","\110\065\087\073\118\122\051\111\056\043\097\074\117\072\085\048\076\047\043\120";"\103\082\087\076\107\103\072\122\089\072\080\073\120\084\072\111\070\057\087\118\119\077\100\120\069\120\061\061";"\079\098\104\116\122\057\083\118\118\120\080\097\117\120\061\061","\108\119\088\117\081\077\073\066\089\111\121\078\080\069\057\072\054\105\117\061";"\112\086\089\068\103\057\111\061";"\090\065\112\107\074\071\051\100\108\070\061\061";"\073\088\055\049","\083\117\061\061","\104\087\086\101\115\117\061\061","\115\119\108\043\085\120\061\061";"\109\053\117\068\082\100\089\114\117\098\047\051\113\112\100\100\105\070\061\061","\068\102\079\054\068\083\068\052\072\112\069\067\080\056\048\113\106\073\107\074\078\086\099\061","\115\077\066\113\104\097\118\101\121\120\057\061","\114\105\051\097\105\120\120\061";"\087\098\087\089\117\082\119\050\052\065\097\066";"\116\107\069\072\101\112\117\113\102\081\061\061","\072\117\081\077\052\101\068\083\082\054\084\061";"\110\113\049\098\110\083\077\079\055\086\090\061","\080\083\057\090\048\051\066\051\100\067\106\120\100\108\050\077","\073\057\074\119","\068\112\084\089\043\103\069\075\070\074\111\112\073\121\066\106\115\089\074\122\052\066\057\061","\088\080\116\065\081\099\089\074\052\107\050\073\069\122\085\056\056\089\070\080\066\117\113\109\117\043\068\066\110\121\100\109\103\073\099\117\057\078\100\097\121\071\114\115\107\049\085\056\065\109\049\087\107\099\101\115\090\073\054\043\117\090\067\050\098\084\121\097\116\117\056\115\109\074\078\099\118\112\119\061","\072\105\106\071\099\081\061\061","\052\070\114\100","\098\085\108\112\101\043\077\109\048\116\098\079\067\070\098\073\078\052\106\099";"\082\116\082\056\089\117\047\105\119\070\061\061";"\116\077\056\057\119\099\086\088\056\083\100\069\080\090\106\061","\072\047\082\051\073\070\061\061";"\118\083\103\117\105\070\084\061","\115\099\087\109\122\099\049\087\081\110\104\073\099\101\074\097\086\115\089\118","\087\051\051\056\049\070\061\061";"\079\055\097\051\098\118\067\052\076\088\111\061","\114\102\112\116","\081\056\122\111\072\113\106\069","\102\065\122\065","\090\043\090\072";"\055\111\051\110";"\102\097\073\083\101\066\083\114\089\053\081\061","\108\072\069\099\110\049\049\103\077\081\120\043","\052\075\082\097\088\107\084\052\119\088\104\050\057\116\115\118";"\105\100\067\117\052\089\108\072\102\049\116\051\067\081\061\061","\049\056\100\065\056\104\108\107\120\071\097\114\054\108\109\102\069\111\070\047\109\105\119\061";"\110\085\066\115\071\052\076\085\105\114\101\051\047\084\118\069\047\047\119\061","\050\099\047\110\118\100\074\081\077\118\101\099\097\101\077\083\090\115\056\089\119\121\102\078\070\081\116\121\099\076\057\061";"\065\049\067\072\082\114\051\082\103\081\061\061","\087\080\068\112\055\067\090\067\077\088\069\115\114\070\061\061";"\112\048\052\085\068\083\081\085\047\100\051\117\090\097\099\061";"\069\107\076\075";"\087\087\108\103\103\057\073\080\100\118\101\050\109\081\061\061";"\083\077\083\114\080\097\122\112\074\120\061\061","\081\051\100\112\048\047\079\050";"\084\066\085\100\082\054\121\098\114\120\081\050\113\083\114\102\120\055\098\047\081\089\114\112\113\083\084\061","\080\097\122\121\080\047\079\078\100\085\106\061";"\053\081\061\061","\068\071\121\073\119\066\112\054\065\082\075\072\100\101\116\077\047\052\103\098\057\117\067\056\047\100\051\100\107\088\049\075\067\082\122\119\102\078\105\118\073\104\048\104\107\097\101\043\073\054\100\121\074\080\054\085\055\107\103\055\065\085\117\077\072\086\074\114\071\101\083\047\113\074\051\080\055\054\099\050\068\117\081\052\101\105\116\113\104\109\081\121\114\114\076\047\098\118\111\106\057\117\056\086\071\051\057\054\111\104\106\121\121\117\049\099\104\122\099\104\071\067\078\100\052\086\075\099\102\110\066\055\076\075\067\108\106\065\078\067\117\085\098\104\047\109\053\082\055\047\080\043\080\099\054\118\118\043\072\049\069\088\114\075\053\103\088\055\121\057\120\084\103\117\075\085\070\103\119\068\066\103\099\120\066\085\077\111\089\113\050\102\071\097\117\079\056\088\052\073\118\043\066\098\055\076\080\109\069\110\103\120\082\075\048\116\112\113\056\119\076\120\122\076\090\051\067\049\109\101\108\055\087\072\075\081\086\069\075\097\050\081\052\066\116\071\066\077\110\098\101\083\057\071\100\069\085\117\076\077\055\119\050\049\066\050\103\097\067\086\055\079\053\084\121\065\105\073\100\105\048\112\050\112\082\119\048\115\075\113\109\113\099\085\087\077\099\065\071\072\048\073\078\047\120\075\120\081\105\082\049\079\089\102\057\088\070\122\122\069\082\119\098\101\056\122\068\066\075\066\116\065\079\068\067\081\084\107\086\112\086\068\083\113\119\088\116\071\119\079\122\051\111\049\121\043\048\108\087\116\115\083\054\087\084\117\103\072\122\070\079\067\047\115\090\099\055\118\081\054\101\106\105\066\114\119\087\116\099\115\088\087\086\072\118\067\118\067\047\086\084\077\082\080\051\052\103\066\121\074\115\120\088\105\086\113\079\048\110\101\086\047\048\073\052\106\056\100\105\118\120\116\120\080\083\053\097\103\103\090\043\086\088\054\079\083\097\050\106\104\056\115\105\115\106\117\121\113\115\108\056\108\079\118\101\086\074\073\081\070\057\085\076\055\048\052\105\049\108\105\079\072\116\057\097\053\097\102\090\055\122\090\070\066\075\087\057\103\050\066\048\066\071\066\082\116\121\052\066\122\052\078\104\117\080\098\102\086\081\109\113\047\068\114\079\082\117\067\078\043\099\050\082\114\057\056\053\048\047\057\099\105\109\105\083\052\103\069\119\097\112\082\084\055\101\054\048\120\054\108\090\047\082\108\090\075\072\112\084\072\077\111\072\098\078\053\107\115\043\118\100\048\112\114\057\054\112\097\116\119\081\090\119\119\116\073\101\069\083\122\097\069\114\109\085\120\043\086\082\110\066\052\049\088\102\099\073\056\120\084\121\105\097\099\121\056\081\051\056\065\097\076\110\108\102\116\047\114\102\105\111\080\098\053\097\053\070\082\121\080\114\099\099\084\086\089\055\117\052\066\103\106\081\072\104\088\113\080\050\069\071\052\076\120\052\112\105\097\102\115\082\113\056\090\072\120\101\102\083\089\089\043\073\119\119\047\082\089\052\071\081\073\079\073\043\068\084\070\049\107\075\110\111\068\110\065\116\081\105\104\121\088\115\070\078\084\084\076\079\121\057\072\085\114\075\109\122\088\049\112\120\054\120\098\086\109\051\118\079\090\119\104\119\065\084\088\065\100\120\109\068\107\117\106\069\122\087\122\122\066\065\054\084\082\084\071\082\089\089\087\109\047\077\105\084\088\052\057\121\090\106\052\073\086\076\121\057\122\109\121\065\089\056\108\052\106\072\119\086\119\101\117\069\106\116\111\117\113\114\099\065\043\049\067\047\105\117\099\100\121\072\116\112\113\053\086\103\088\120\118\108\048\109\076\055\076\099\048\056\110\076\089\117\122\076\115\076\105\053\056\086\055\107\050\118\103\109\097\111\054\120\083\051\082\100\055\109\081\117\086\081\097\070\089\075\069\068\056\099\084\050\078\111\120\070\079\122\078\121\114\050\076\089\050\082\112\101\056\107\066\052\050\084\115\109\102\115\077\102\107\050\117\048\056\081\090\106\103\081\116\119\066\053\050\106\120\074\049\052\082\071\080\067\109\107\098\047\074\078\075\105\109\050\100\087\078\066\052\100\051\051\055\053\080\057\107\056\112\107\113\106\087\083\074\113\115\067\073\079\105\097\114\088\119\122\072\112\084\056\071\098\065\051\070\070\074\068\047\120\057\071\114\070\086\106\121\113\117\043\043\081\104\114\104\056\051\113\084\108\084\055\077\102\112\116\070\099\073\085\116\082\048\119\108\065\089\076\083\084\108\074\120\076\079\073\077\071\102\102\114\082\108\049\082\105\087\120\121\066\088\114\111\103\088\084\082\057\118\099\057\071\118\081\043\117\085\055\109\106\090\053\088\048\047\121\098\075\121\102\103\099\077\116\086\047\073\098\109\102\088\055\102\104\051\106\122\076\085\065\107\116\118\048\043\073\111\115\114\085\104\055\078\119\048\043\043\115\074\085\077\065\105\097\079\048\090\107\079\056\086\082\069\079\073\112\087\089\051\057\057\103\113\112\097\067\074\075\067\100\077\090\089\077\100\071\110\080\052\047\055\048\082\088\113\080\080\073\115\106\099\106\104\066\087\121\115\090\067\097\100\051\070\098\065\065\087\050\100\052\108\116\082\099\072\100\117\090\069\072\051\103\122\104\054\068\052\112\076\069\103\052\057\048\068\113\066\110\083\111\077\082\076\104\122\089\102\088\056\104\057\072\090\075\119\098\057\105\065\111\110\113\071\121\107\103\088\057\067\053\066\098\115\113\078\106\053\079\120\047\118\121\066\074\079\111\047\074\056\071\120\101\088\102\053\078\057\071\054\067\114\080\086\100\114\077\078\108\115\102\071\116\110\111\049\104\104\050\065\072\114\048\043\047\119\072\114\116\065\053\053\117\053\083\078\048\112\069\084\087\079\056\082\103\099\085\122\048\080\048\112\122\098\057\118\078\116\115\121\067\120\066\075\080\085\052\119\071\114\043\089\075\105\104\078\083\088\106\086\072\106\055\083\121\101\054\052\076\102\100\119\074\065\115\087\117\087\103\073\052\109\072\118\103\121\056\122\047\055\053\068\071\078\053\066\097\107\112\048\068\103\097\111\078\071\043\088\081\115\070\067\070\119\117\047\076\100\043\097\043\050\075\120\083\066\111\055\048\054\057\083\077\102\117\120\107\101\074\103\053\086\054\057\067\073\106\071\079\056\057\106\100\048\077\052\050\074\120\115\081\122\108\053\083\107\048\048\082\072\077\086\114\082\074\078\100\068\120\087\050\057\057\083\066\120\075\077\077\108\098\048\102\098\108\080\082\075\069\048\098\106\086\047\079\088\071\049\110\112\047\099\101\054\088\108\073\065\077\066\118\084\122\114\056\118\107\079\088\088\052\108\070\115\103\055\067\076\066\087\111\107\109\048\072\074\068\068\111\071\054\053\043\066\097\101\097\077\109\085\084\050\055\073\076\043\053\055\082\073\066\056\075\086\090\107\104\051\079\043\077\117\079\069\103\055\080\089\047\075\051\109\085\054\112\087\106\100\065\089\043\067\089\116\087\068\078\086\105\117\103\049\109\116\120\103\108\112\109\084\047\056\108\047\100\090\074\076\084\067\105\079\109\065\107\110\122\108\043\121\104\048\099\053\078\057\071\057\047\101\087\122\082\054\118\090\099\057\117\108\081\043\108\085\049\119\119\115\082\112\122\117\081\057\087\053\111\117\082\078\113\103\100\114\088\106\112\072\120\050\119\079\090\109\070\104\104\074\078\053\071\054\053\089\074\083\083\099\109\075\103\069\079\109\067\087\047\105\111\120\103\119\107\076\071\105\076\104\088\052\099\081\120\090\048\101\069\051\078\053\080\111\052\043\107\054\073\121\114\098\052\078\074\100\109\080\087\100\097\110\115\097\107\108\067\114\080\089\043\083\065\106\079\065\112\121\084\090\072\119\099\067\050\054\088\043\057\074\122\122\090\104\054\121\043\108\054\070\051\084\048\102\066\089\102\103\070\088\115\122\074\122\053\097\048\086\121\101\122\103\076\080\067\047\084\075\068\111\072\121\081\115\098\083\083\109\112\080\076\067\072\080\122\098\074\074\089\049\104\112\107\069\090\089\088\121\056\111\082\088\082\101\088\068\050\049\056\114\104\113\068\120\071\073\087\080\103\074\122\080\110\077\051\099\070\080\073\089\117\074\083\104\049\108\079\099\100\117\120\043\050\056\107\097\066\054\048\120\097\106\106\067\055\112\090\088\086\119\057\054\068\107\112\070\066\068\083\111\070\102\078\072\103\116\066\081\105\101\090\097\087\053\071\084\085\113\071\080\105\087\111\050\105\118\080\047\052\104\070\067\053\102\097\057\078\089\118\056\043\112\048\108\069\050\074\075\084\072\121\110\077\069\104\074\097\089\097\117\108\086\110\050\051\080\097\080\068\119\048\076\104\100\085\113\097\043\106\110\043\104\084\079\102\085\122\076\085\099\054\098\078\119\105\072\085\114\099\089\070\120\050\053\112\066\098\073\105\054\073\073\072\069\071\065\107\047\098\120\056\108\067\120\113\066\106\111\052\119\115\087\120\089\115\074\080\084\121\055\122\071\043\121\117\057\084\083\101\084\086\054\101\101\102\107\118\085\049\110\100\085\112\097\068\116\051\068\115\086\074\109\114\113\049\047\065\082\102\047\120\097\102\053\100\101\055\088\105\122\084\082\104\108\106\107\076\051\089\103\113\051\085\087\106\081\111\120\116\110\112\081\071\089\115\053\102\101\110\117\097\065\076\089\108\118\122\070\089\101\117\086\057\051\081\082\088\055\050\083\105\104\048\110\053\083\081\119\107\065\056\071\083\075\049\114\104\101\048\076\054\101\067\068\115\081\066\086\114\072\099\119\066\053\081\057\071\076\065\090\119\089\077\072\078\111\086\098\082\057\054\105\112\118\088\109\099\053\106\069\053\080\090\113\122\084\049\087\107\105\047\051\110\120\050\073\052\070\057\054\081\114\100\111\056\114\068\107\067\104\082\079\082\090\103\069\120\089\116\112\071\113\066\081\085\075\099\116\109\098\079\108\081\051\099\122\050\119\049\106\089\050\105\078\087\047\052\099\105\115\113\079\117\097\090\106\112\050\099\048\057\099\078\103\071\075\056\097\053\108\078\088\050\078\047\057\113\076\112\108\073\054\085\101\102\083\090\102\050\102\122\048\073\073\085\080\119\085\057\101\052\117\081\066\110\099\047\079\111\113\087\077\087\067\108\080\050\072\111\121\119\052\051\075\054\122\120\086\081\052\120\081\115\116\066\083\057\043\087\104\116\097\055\090\078\073\076\103\113\066\070\120\066\056\072\074\066\076\082\073\066\057\052\118\068\074\099\043\120\109\120\121\065\103\070\078\110\121\065\086\051\078\097\067\074\121\098\104\075\084\082\110\109\065\119\068\104\118\051\099\119\118\069\081\083\118\120\076\087\099\110\072\075\072\048\053\066\098\103\104\111\101\067\089\070\078\104\066\097\112\111\106\116\121\104\109\080\115\085\087\114\087\086\043\086\090\051\043\107\116\113\070\055\043\102\082\090\084\119\108\057\112\054\053\078\104\107\078\071\070\086\079\083\120\100\065\075\090\110\080\085\105\048\083\049\074\121\100\122\055\057\101\102\066\052\075\074\098\085\104\105\117\115\109\121\048\057\102\088\070\080\114\088\122\086\071\054\082\101\106\109\120\049\119\048\065\066\088\076\087\097\068\114\099\089\089\077\089\056\069\072\070\081\051\107\087\118\106\050\056\050\098\070\103\067\101\104\119\122\066\078\120\099\074\110\067\112\119\090\115\121\116\087\089\118\113\054\116\087\081\069\076\105\079\111\068\075\115\071\085\077\054\087\043\106\053\116\105\105\055\054\105\105\111\106\073\047\082\083\048\071\100\080\101\088\102\073\070\105\106\110\068\097\047\110\073\104\087\105\065\047\074\047\084\073\072\078\066\100\098\101\050\099\066\114\069\079\088\110\077\103\106\075\090\105\078\107\103\099\086\111\048\118\054\084\072\081\087\121\075\050\075\121\068\110\109\057\109\090\103\049\104\102\050\104\101\053\106\050\043\110\079\075\066\098\083\106\087\120\116\102\070\083\050\103\101\048\085\079\106\083\103\056\047\081\075\089\110\108\080\113\067\113\098\065\071\109\118\086\109\071\078\116\098\077\103\104\105\110\119\078\075\070\076\076\079\047\068\116\043\066\075\056\051\075\057\120\049\077\051\068\084\072\111\114\104\083\049\118\067\113\049\120\071\112\071\082\072\118\103\056\079\087\101\102\051\086\118\087\050\047\107\099\076\057\103\055\119\101\115\082\054\102\108\071\047\050\088\071\074\075\083\082\113\100\074\048\109\089\085\055\120\118\065\074\057\075\079\067\079\079\050\082\120\080\081\043\082\084\107\118\052\075\105\083\111\121\084\099\077\048\097\115\113\110\098\103\111\051\073\069\084\105\055\081\070\106\119\111\069\083\087\054\078\119\087\047\076\121\077\075\111\078\069\088\051\099\057\052\107\048\121\104\122\120\080\104\112\048\119\119\121\070\105\109\050\043\051\088\105\105\056\115\081\081\079\109\053\074\052\070\050\053\122\106\088\086\048\069\050\103\069\078\080\119\106\122\085\057\113\072\087\100\043\070\121\085\109\099\104\073\048\108\070\109\121\107\088\120\121\097\053\107\055\101\112\043\118\068\077\074\106\065\053\076\047\071\043\053\088\082\090\120\088\085\108\057\105\054\070\076\101\086\056\111\109\047\082\078\089\090\053\089\083\055\115\083\072\089\067\049\117\052\079\066\115\066\122\076\111\079\115\106\109\103\121\080\112\088\112\098\120\079\112\116\104\070\102\097\066\113\047\055\072\084\102\080\106\086\090\051\079\055\051\055\073\116\085\053\065\048\053\089\098\098\070\080\077\106\103\083\068\071\098\076\084\070\079\080\111\077\081\107\068\099\111\119\100\105\084\113\101\078\049\118\069\117\088\089\107\050\068\097\057\083\099\097\097\052\108\086\082\050\105\087\089\089\052\121\114\109\078\097\106\113\121\051\082\104\069\097\074\118\048\101\108\112\119\048\106\111\080\099\105\113\077\088\053\047\111\090\074\049\050\112\075\069\119\049\069\111\070\088\102\085\115\120\114\084\104\055\076\057\114\097\118\088\107\089\119\102\057\120\106\111\087\112\049\102\057\065\051\107\098\068\109\068\102\069\099\089\078\111\065\112\086\080\071\082\084\097\117\076\086\043\110\098\083\072\083\089\047\100\066\098\082\090\055\102\100\081\043\054\106\113\071\104\082\074\115\119\055\054\051\120\111\074\107\084\114\105\083\067\057\115\118\084\113\050\088\050\098\089\049\048\051\102\053\098\105\089\072\088\115\099\102\052\067\075\080\100\056\089\076\043\069\053\054\105\053\068\055\051\120\053\080\090\101\080\088\053\082\086\108\119\118\098\085\049\055\105\069\120\119\047\117\103\085\113\106\103\066\109\056\109\112\119\077\116\075\050\051\084\108\049\082\054\079\118\111\120\118\084\057\088\079\081\110\118\055\121\066\101\043\078\086\054\083\106\122\073\114\115\120\090\119\088\069\043\050\081\108\082\090\070\043\065\114\080\112\090\086\097\085\102\081\119\057\109\084\097\085\073\086\076\110\084\078\085\107\107\122\047\102\080\080\057\102\072\087\089\043\119\099\071\068\043\043\048\118\069\104\102\072\077\043\068\074\056\107\077\082\106\089\110\069\073\056\085\076\104\090\101\082\111\103\105\051\087\097\106\043\077\070\090\111\057\053\053\116\071\055\086\122\047\097\088\081\052\113\079\074\110\106\114\106\108\068\072\066\054\080\047\069\073\049\098\074\109\079\054\055\097\075\102\112\050\069\085\102\090\103\055\077\101\052\121\112\097\110\114\112\084\103\114\050\055\1
+-- Services
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Lighting = game:GetService("Lighting")
+local RunService = game:GetService("RunService")
+local StarterGui = game:GetService("StarterGui")
+
+-- Global
+getgenv().Running = false
+
+-- Automatically copy Discord invite link
+pcall(function()
+    if setclipboard then
+        setclipboard("https://discord.gg/ZNPD5HPM2e")
+    end
+end)
+
+-- Fire the initial scripts
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/refs/heads/main/Source.lua"))()
+    task.wait(3)
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-Kick-64381"))()
+end)
+
+-- GUI setup
+local gui = Instance.new("ScreenGui")
+gui.Name = "QuantumFlowHub"
+gui.ResetOnSpawn = false
+gui.Parent = CoreGui
+
+-- Main frame
+local mainFrame = Instance.new("Frame")
+mainFrame.Size = UDim2.new(0, 360, 0, 320)
+mainFrame.Position = UDim2.new(0.5, -180, 0.4, -160)
+mainFrame.BackgroundColor3 = Color3.fromRGB(40, 25, 60)
+mainFrame.BorderSizePixel = 0
+mainFrame.Active = true
+mainFrame.Draggable = true
+mainFrame.Parent = gui
+
+local mainCorner = Instance.new("UICorner")
+mainCorner.CornerRadius = UDim.new(0, 14)
+mainCorner.Parent = mainFrame
+
+-- Header
+local header = Instance.new("Frame")
+header.Size = UDim2.new(1, 0, 0, 40)
+header.BackgroundColor3 = Color3.fromRGB(60, 30, 80)
+header.Parent = mainFrame
+
+local headerCorner = Instance.new("UICorner")
+headerCorner.CornerRadius = UDim.new(0, 14)
+headerCorner.Parent = header
+
+local title = Instance.new("TextLabel")
+title.Text = "Quantum Flow by Zel"
+title.Size = UDim2.new(1, -50, 1, 0)
+title.Position = UDim2.new(0, 15, 0, 0)
+title.BackgroundTransparency = 1
+title.Font = Enum.Font.GothamBold
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 17
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Parent = header
+
+-- Minimize button
+local minimize = Instance.new("TextButton")
+minimize.Size = UDim2.new(0, 40, 1, 0)
+minimize.Position = UDim2.new(1, -45, 0, 0)
+minimize.Text = "-"
+minimize.Font = Enum.Font.GothamBold
+minimize.TextSize = 22
+minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+minimize.BackgroundColor3 = Color3.fromRGB(60, 60, 70)
+local minCorner = Instance.new("UICorner", minimize)
+minCorner.CornerRadius = UDim.new(0, 8)
+minimize.Parent = header
+
+-- Scroll Frame
+local scrollFrame = Instance.new("ScrollingFrame")
+scrollFrame.Size = UDim2.new(1, -20, 1, -50)
+scrollFrame.Position = UDim2.new(0, 10, 0, 45)
+scrollFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+scrollFrame.ScrollBarThickness = 6
+scrollFrame.BackgroundTransparency = 1
+scrollFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollFrame.Parent = mainFrame
+
+local uiList = Instance.new("UIListLayout", scrollFrame)
+uiList.Padding = UDim.new(0, 10)
+uiList.HorizontalAlignment = Enum.HorizontalAlignment.Center
+uiList.SortOrder = Enum.SortOrder.LayoutOrder
+
+-- Input box
+local input = Instance.new("TextBox")
+input.Size = UDim2.new(1, -10, 0, 90)
+input.PlaceholderText = "Don't use it for now"
+input.Text = ""
+input.TextWrapped = true
+input.MultiLine = true
+input.ClearTextOnFocus = false
+input.TextXAlignment = Enum.TextXAlignment.Left
+input.TextYAlignment = Enum.TextYAlignment.Top
+input.Font = Enum.Font.Gotham
+input.TextSize = 14
+input.BackgroundColor3 = Color3.fromRGB(45, 45, 55)
+input.TextColor3 = Color3.fromRGB(255, 255, 255)
+input.BorderSizePixel = 0
+input.LayoutOrder = 1
+input.Parent = scrollFrame
+
+local inputCorner = Instance.new("UICorner")
+inputCorner.CornerRadius = UDim.new(0, 10)
+inputCorner.Parent = input
+
+-- Function to create buttons with gradient + sound
+local function createButton(name, parent)
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(0, 110, 0, 35)
+    btn.Text = name
+    btn.Font = Enum.Font.GothamBold
+    btn.TextSize = 14
+    btn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    btn.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    btn.AutoButtonColor = false
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = btn
+
+    local gradient = Instance.new("UIGradient")
+    gradient.Color = ColorSequence.new{
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(0,0,0)), 
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(255,255,255))
+    }
+    gradient.Rotation = 90
+    gradient.Parent = btn
+
+    local hoverSoundId = "rbxassetid://6042053626"
+    local clickSoundId = "rbxassetid://6042053626"
+
+    local function playSound(id)
+        local sound = Instance.new("Sound")
+        sound.SoundId = id
+        sound.Volume = 1
+        sound.PlayOnRemove = true
+        sound.Parent = btn
+        sound:Destroy()
+    end
+
+    local OriginalSize = btn.Size
+    local ScaleFactor = 1.1
+    btn.MouseEnter:Connect(function()
+        playSound(hoverSoundId)
+        btn:TweenSize(
+            UDim2.new(
+                OriginalSize.X.Scale,
+                OriginalSize.X.Offset * ScaleFactor,
+                OriginalSize.Y.Scale,
+                OriginalSize.Y.Offset * ScaleFactor
+            ),
+            Enum.EasingDirection.Out,
+            Enum.EasingStyle.Quad,
+            0.15,
+            true
+        )
+    end)
+    btn.MouseLeave:Connect(function()
+        btn:TweenSize(OriginalSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.15, true)
+    end)
+    btn.MouseButton1Click:Connect(function()
+        playSound(clickSoundId)
+    end)
+
+    btn.Parent = parent
+    return btn
+end
+
+-- Top row
+local topRow = Instance.new("Frame")
+topRow.Size = UDim2.new(1, 0, 0, 40)
+topRow.BackgroundTransparency = 1
+topRow.LayoutOrder = 2
+topRow.Parent = scrollFrame
+
+local topLayout = Instance.new("UIListLayout")
+topLayout.FillDirection = Enum.FillDirection.Horizontal
+topLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+topLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+topLayout.SortOrder = Enum.SortOrder.LayoutOrder
+topLayout.Padding = UDim.new(0, 8)
+topLayout.Parent = topRow
+
+local clearBtn = createButton("Clear", topRow)
+local startBtn = createButton("Start", topRow)
+local pasteBtn = createButton("Paste", topRow)
+
+-- Speed row
+local speedRow = Instance.new("Frame")
+speedRow.Size = UDim2.new(1, 0, 0, 35)
+speedRow.BackgroundTransparency = 1
+speedRow.LayoutOrder = 3
+speedRow.Parent = scrollFrame
+
+local speedLayout = Instance.new("UIListLayout")
+speedLayout.FillDirection = Enum.FillDirection.Horizontal
+speedLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+speedLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+speedLayout.SortOrder = Enum.SortOrder.LayoutOrder
+speedLayout.Padding = UDim.new(0, 8)
+speedLayout.Parent = speedRow
+
+local confirmSpeed = createButton("Confirm Speed", speedRow)
+confirmSpeed.Size = UDim2.new(0, 130, 1, 0)
+
+local speedSlider = Instance.new("TextBox")
+speedSlider.Size = UDim2.new(0, 140, 1, 0)
+speedSlider.Text = ""
+speedSlider.Font = Enum.Font.Gotham
+speedSlider.TextSize = 14
+speedSlider.BackgroundColor3 = Color3.fromRGB(45, 45, 55)
+speedSlider.TextColor3 = Color3.fromRGB(255, 255, 255)
+speedSlider.ClearTextOnFocus = false
+speedSlider.TextXAlignment = Enum.TextXAlignment.Left
+speedSlider.LayoutOrder = 2
+speedSlider.Parent = speedRow
+
+local speedCorner = Instance.new("UICorner")
+speedCorner.CornerRadius = UDim.new(0, 10)
+speedCorner.Parent = speedSlider
+
+-- Bottom row
+local bottomRow = Instance.new("Frame")
+bottomRow.Size = UDim2.new(1, 0, 0, 40)
+bottomRow.BackgroundTransparency = 1
+bottomRow.LayoutOrder = 4
+bottomRow.Parent = scrollFrame
+
+local bottomLayout = Instance.new("UIListLayout")
+bottomLayout.FillDirection = Enum.FillDirection.Horizontal
+bottomLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+bottomLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+bottomLayout.SortOrder = Enum.SortOrder.LayoutOrder
+bottomLayout.Padding = UDim.new(0, 8)
+bottomLayout.Parent = bottomRow
+
+local spyBtn = createButton("Octo Spy", bottomRow)
+local addExpBtn = createButton("Add EXP", bottomRow)
+local infHTBtn = createButton("INF Hunger/Thirst", bottomRow)
+
+-- Third row
+local thirdRow = Instance.new("Frame")
+thirdRow.Size = UDim2.new(1, 0, 0, 40)
+thirdRow.BackgroundTransparency = 1
+thirdRow.LayoutOrder = 5
+thirdRow.Parent = scrollFrame
+
+local thirdLayout = Instance.new("UIListLayout")
+thirdLayout.FillDirection = Enum.FillDirection.Horizontal
+thirdLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+thirdLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+thirdLayout.SortOrder = Enum.SortOrder.LayoutOrder
+thirdLayout.Padding = UDim.new(0, 8)
+thirdLayout.Parent = thirdRow
+
+local changeTimeBtn = createButton("Change Time", thirdRow)
+local openJeepBtn = createButton("Open Jeep Boost", thirdRow)
+local kmFarmerBtn = createButton("KM FARMER", thirdRow)
+
+-- Button logic
+clearBtn.MouseButton1Click:Connect(function() input.Text = "" end)
+pasteBtn.MouseButton1Click:Connect(function()
+    pcall(function() input.Text = (setclipboard and getclipboard and getclipboard()) or "" end)
+end)
+startBtn.MouseButton1Click:Connect(function()
+    getgenv().Running = not getgenv().Running
+    startBtn.Text = getgenv().Running and "Stop" or "Start"
+end)
+confirmSpeed.MouseButton1Click:Connect(function()
+    local speed = tonumber(speedSlider.Text)
+    if speed and LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid") then
+        LocalPlayer.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = speed
+    end
+end)
+spyBtn.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Octo-Spy/refs/heads/main/Main.lua"))()
+end)
+addExpBtn.MouseButton1Click:Connect(function()
+    local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+    if leaderstats and leaderstats:FindFirstChild("Exp") then
+        leaderstats.Exp.Value += 100000
+    end
+end)
+infHTBtn.MouseButton1Click:Connect(function()
+    local stats = LocalPlayer:WaitForChild("stats")
+    local hunger = stats:FindFirstChild("Hunger")
+    local thirst = stats:FindFirstChild("Thirst")
+    if hunger and hunger:IsA("IntValue") then hunger.Value = 100 end
+    if thirst and thirst:IsA("IntValue") then thirst.Value = 100 end
+end)
+
+-- Change time
+changeTimeBtn.MouseButton1Click:Connect(function()
+    Lighting.ClockTime = (Lighting.ClockTime + 1) % 24
+end)
+
+-- ⭐⭐⭐ NEW JEEP BOOST OPEN BUTTON ⭐⭐⭐
+openJeepBtn.MouseButton1Click:Connect(function()
+    StarterGui:SetCore("SendNotification", {
+        Title = "QFlowX",
+        Text = "opening...",
+        Duration = 3
+    })
+
+    loadstring([[
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local Debris = game:GetService("Debris")
+local workspace = game:GetService("Workspace")
+
+local player = Players.LocalPlayer or Players:FindFirstChildWhichIsA("Player")
+local boostDistance = 50
+local boostTime = 0.5
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Parent = player:WaitForChild("PlayerGui")
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Size = UDim2.new(0, 250, 0, 130)
+MainFrame.Position = UDim2.new(0.35, 0, 0.35, 0)
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BackgroundTransparency = 0.5
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.Visible = true
+MainFrame.Parent = ScreenGui
+
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = MainFrame
+
+local Title = Instance.new("TextLabel")
+Title.Size = UDim2.new(1, 0, 0, 30)
+Title.Position = UDim2.new(0, 0, 0, 0)
+Title.BackgroundTransparency = 1
+Title.Text = "QFlowX JeepBoost"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 20
+Title.Parent = MainFrame
+
+local BoostBtn = Instance.new("TextButton")
+BoostBtn.Size = UDim2.new(0.5, 0, 0, 40)
+BoostBtn.Position = UDim2.new(0.25, 0, 0.5, 0)
+BoostBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BoostBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoostBtn.Font = Enum.Font.GothamBold
+BoostBtn.TextSize = 18
+BoostBtn.Text = "Boost"
+BoostBtn.Parent = MainFrame
+
+local BtnCorner = Instance.new("UICorner")
+BtnCorner.CornerRadius = UDim.new(0, 6)
+BtnCorner.Parent = BoostBtn
+
+local hoverSoundId = "rbxassetid://6042053626"
+local clickSoundId = "rbxassetid://6042053626"
+local OriginalSize = BoostBtn.Size
+local ScaleFactor = 1.1
+
+local function playSound(id)
+	local sound = Instance.new("Sound")
+	sound.SoundId = id
+	sound.Volume = 1
+	sound.PlayOnRemove = true
+	sound.Parent = BoostBtn
+	sound:Destroy()
+end
+
+local function ScaleUp()
+	playSound(hoverSoundId)
+	local newSize = UDim2.new(
+		OriginalSize.X.Scale,
+		OriginalSize.X.Offset * ScaleFactor,
+		OriginalSize.Y.Scale,
+		OriginalSize.Y.Offset * ScaleFactor
+	)
+	BoostBtn:TweenSize(newSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.15, true)
+end
+
+local function ResetSize()
+	BoostBtn:TweenSize(OriginalSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.15, true)
+end
+
+BoostBtn.MouseEnter:Connect(ScaleUp)
+BoostBtn.MouseLeave:Connect(ResetSize)
+
+BoostBtn.MouseButton1Click:Connect(function()
+	playSound(clickSoundId)
+	local jeep = workspace:FindFirstChild("Jeepnies") and workspace.Jeepnies:FindFirstChild(player.Name)
+	if jeep then
+		local root = jeep.PrimaryPart or jeep:FindFirstChild("PrimaryPart") or jeep:FindFirstChildWhichIsA("BasePart")
+		if root then
+			local velocityObj = Instance.new("BodyVelocity")
+			velocityObj.MaxForce = Vector3.new(1e6,1e6,1e6)
+			velocityObj.Velocity = root.CFrame.LookVector * (boostDistance / boostTime)
+			velocityObj.Parent = root
+			Debris:AddItem(velocityObj, boostTime)
+		end
+	end
+end)
+
+    ]])()
+end)
+
+-- KM Farmer
+kmFarmerBtn.MouseButton1Click:Connect(function()
+    local plr = LocalPlayer
+    local char = plr.Character or plr.CharacterAdded:Wait()
+    local hrp = char:WaitForChild("HumanoidRootPart")
+
+    local targetPos = Vector3.new(17790.96, 12.95, -1106.35)
+    local riseHeight = 100
+    local riseTime = 30
+    local moveTime = 180
+    local descendTime = 30
+
+    local function easeInOut(t)
+        return t < 0.5 and 2 * t * t or -1 + (4 - 2 * t) * t
+    end
+
+    local function setAnchored(model, value)
+        for _, part in ipairs(model:GetDescendants()) do
+            if part:IsA("BasePart") then
+                part.Anchored = value
+            end
+        end
+    end
+
+    local function smoothMove(part, goalPos, duration)
+        local startPos = part.Position
+        local distance = (goalPos - startPos)
+        local startTime = tick()
+        local connection
+        connection = RunService.Heartbeat:Connect(function()
+            local elapsed = tick() - startTime
+            local alpha = math.clamp(elapsed / duration, 0, 1)
+            local smoothAlpha = easeInOut(alpha)
+            local newPos = startPos + distance * smoothAlpha
+            part.CFrame = CFrame.new(newPos, part.CFrame.LookVector)
+            if alpha >= 1 then
+                connection:Disconnect()
+            end
+        end)
+        task.wait(duration)
+    end
+
+    local seat = char:FindFirstChildWhichIsA("VehicleSeat", true)
+    if seat and seat.Occupant then
+        local vehicle = seat:FindFirstAncestorWhichIsA("Model")
+        if vehicle then
+            if not vehicle.PrimaryPart then
+                vehicle.PrimaryPart = seat
+            end
+            local root = vehicle.PrimaryPart
+            setAnchored(vehicle, true)
+
+            local startPos = root.Position
+            local risePos = Vector3.new(startPos.X, riseHeight, startPos.Z)
+            smoothMove(root, risePos, riseTime)
+
+            local movePos = Vector3.new(targetPos.X, riseHeight, targetPos.Z)
+            smoothMove(root, movePos, moveTime)
+
+            local finalPos = Vector3.new(targetPos.X, targetPos.Y, targetPos.Z)
+            smoothMove(root, finalPos, descendTime)
+
+            setAnchored(vehicle, false)
+        else
+            warn("No vehicle model found.")
+        end
+    else
+        local startPos = hrp.Position
+        local risePos = Vector3.new(startPos.X, riseHeight, startPos.Z)
+        smoothMove(hrp, risePos, riseTime)
+
+        local movePos = Vector3.new(targetPos.X, riseHeight, targetPos.Z)
+        smoothMove(hrp, movePos, moveTime)
+
+        local finalPos = Vector3.new(targetPos.X, targetPos.Y, targetPos.Z)
+        smoothMove(hrp, finalPos, descendTime)
+    end
+end)
+
+-- Minimize
+local minimized = false
+minimize.MouseButton1Click:Connect(function()
+    minimized = not minimized
+    minimize.Text = minimized and "+" or "-"
+    local targetSize = minimized and UDim2.new(0, 360, 0, 40) or UDim2.new(0, 360, 0, 320)
+    TweenService:Create(
+        mainFrame,
+        TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+        {Size = targetSize}
+    ):Play()
+    scrollFrame.Visible = not minimized
+end)
+
+-- Main loop
+task.spawn(function()
+    while true do
+        if getgenv().Running then
+            pcall(function()
+                local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+                local RecieveCoin = Remotes:WaitForChild("RecieveCoin")
+                local Jeepnies = workspace:WaitForChild("Jeepnies")
+                local Jeepney = Jeepnies:WaitForChild(LocalPlayer.Name)
+                local PassengerValues = Jeepney:WaitForChild("PassengerValues")
+                RecieveCoin:FireServer({
+                    ["PassengerValues"]=PassengerValues,
+                    ["Password"]=838875481,
+                    ["Main"]=true,
+                    ["Value"]=300
+                })
+            end)
+            task.wait(0.1)
+        else
+            task.wait(0.5)
+        end
+    end
+end)
